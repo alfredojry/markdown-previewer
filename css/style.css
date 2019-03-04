@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+.text-primary {
+  font-family: 'Permanent Marker', cursive;
+}
+
+#by-yoelvis {
+  font-family: 'Permanent Marker', cursive;
+}
+
+#editor {
+  margin-top: 2%;
+  /*width: 500px;*/  
+}
+
+@media (max-width: 768px) {
+  #editor {
+    height: 45vh;
+  }
+} 
+
+@media (min-width: 769px) {
+  #editor {
+    height: 85vh;
+  }
+} 
+
+#preview {
+  border: 1px solid black;
+  margin-top: 2%;
+}
+
+img {
+  width: 100%;
+}
